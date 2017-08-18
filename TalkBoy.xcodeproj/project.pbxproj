@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		18F48F2A1F46851A00ABA112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F291F46851A00ABA112 /* AppDelegate.swift */; };
-		18F48F2C1F46851A00ABA112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F2B1F46851A00ABA112 /* ViewController.swift */; };
 		18F48F2F1F46851A00ABA112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F2D1F46851A00ABA112 /* Main.storyboard */; };
 		18F48F321F46851A00ABA112 /* TalkBoy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F301F46851A00ABA112 /* TalkBoy.xcdatamodeld */; };
 		18F48F341F46851A00ABA112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F331F46851A00ABA112 /* Assets.xcassets */; };
 		18F48F371F46851A00ABA112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F351F46851A00ABA112 /* LaunchScreen.storyboard */; };
+		18F48F3F1F478F1D00ABA112 /* TalkBoyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F3E1F478F1D00ABA112 /* TalkBoyTableViewController.swift */; };
+		18F48F411F47905800ABA112 /* AddRecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F401F47905800ABA112 /* AddRecordingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18F48F261F46851A00ABA112 /* TalkBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F48F291F46851A00ABA112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18F48F2B1F46851A00ABA112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18F48F2E1F46851A00ABA112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F48F311F46851A00ABA112 /* TalkBoy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TalkBoy.xcdatamodel; sourceTree = "<group>"; };
 		18F48F331F46851A00ABA112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F48F361F46851A00ABA112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F48F381F46851A00ABA112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F48F3E1F478F1D00ABA112 /* TalkBoyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkBoyTableViewController.swift; sourceTree = "<group>"; };
+		18F48F401F47905800ABA112 /* AddRecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				18F48F291F46851A00ABA112 /* AppDelegate.swift */,
-				18F48F2B1F46851A00ABA112 /* ViewController.swift */,
+				18F48F3E1F478F1D00ABA112 /* TalkBoyTableViewController.swift */,
+				18F48F401F47905800ABA112 /* AddRecordingViewController.swift */,
 				18F48F2D1F46851A00ABA112 /* Main.storyboard */,
 				18F48F331F46851A00ABA112 /* Assets.xcassets */,
 				18F48F351F46851A00ABA112 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F48F2C1F46851A00ABA112 /* ViewController.swift in Sources */,
+				18F48F411F47905800ABA112 /* AddRecordingViewController.swift in Sources */,
+				18F48F3F1F478F1D00ABA112 /* TalkBoyTableViewController.swift in Sources */,
 				18F48F321F46851A00ABA112 /* TalkBoy.xcdatamodeld in Sources */,
 				18F48F2A1F46851A00ABA112 /* AppDelegate.swift in Sources */,
 			);
