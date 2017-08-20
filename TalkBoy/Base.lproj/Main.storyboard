@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddRecordingCell" id="3Ay-Yr-Hs5">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddRecordingCell" rowHeight="40" id="3Ay-Yr-Hs5">
+                                <rect key="frame" x="0.0" y="28" width="375" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Ay-Yr-Hs5" id="ol3-fH-NS1">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="39.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -34,7 +34,7 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Talk Boy" id="H0g-b9-l6D">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="p0C-v7-TOO"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="p0C-v7-TOO" userLabel="Back Button"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ggg-1E-WEf">
                             <connections>
                                 <segue destination="jvf-ot-A2f" kind="show" id="UY4-TJ-EEd"/>
@@ -69,7 +69,7 @@
                                     <action selector="addRecordingDidTap:" destination="jvf-ot-A2f" eventType="touchUpInside" id="FO4-cU-ehG"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="83W-ux-ZYS" userLabel="Title Text Field">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sound Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="83W-ux-ZYS" userLabel="Title Text Field">
                                 <rect key="frame" x="40" y="218" width="295" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
