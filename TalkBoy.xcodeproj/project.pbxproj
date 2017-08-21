@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18C19BD21F4A3F930093D0A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18C19BD31F4B9EDC0093D0A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "/Users/pattyharris1/Documents/Udemy/HowToMakeAFreakingPhoneApp-iOS11-Swift4/TalkBoy/TalkBoy/README.md"; sourceTree = "<absolute>"; };
 		18F48F261F46851A00ABA112 /* TalkBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F48F291F46851A00ABA112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F48F2E1F46851A00ABA112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,13 +61,13 @@
 			children = (
 				18F48F291F46851A00ABA112 /* AppDelegate.swift */,
 				18F48F3E1F478F1D00ABA112 /* TalkBoyTableViewController.swift */,
-				18C19BD21F4A3F930093D0A6 /* README.md */,
 				18F48F401F47905800ABA112 /* AddRecordingViewController.swift */,
 				18F48F2D1F46851A00ABA112 /* Main.storyboard */,
 				18F48F331F46851A00ABA112 /* Assets.xcassets */,
 				18F48F351F46851A00ABA112 /* LaunchScreen.storyboard */,
 				18F48F381F46851A00ABA112 /* Info.plist */,
 				18F48F301F46851A00ABA112 /* TalkBoy.xcdatamodeld */,
+				18C19BD31F4B9EDC0093D0A6 /* README.md */,
 			);
 			path = TalkBoy;
 			sourceTree = "<group>";
